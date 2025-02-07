@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Git Go - For Students</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+        header {
+            background: linear-gradient(45deg, #FF416C 0%, #FF4B2B 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .icons {
+            font-size: 36px;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .icons i {
+            margin: 0 15px;
+            transition: transform 0.3s ease;
+        }
+        .icons i:hover {
+            transform: scale(1.2);
+        }
+        .icons img{
+            margin: 0 15px;
+            transition: transform 0.3s ease;
+        }
+        .icons img:hover {
+            transform: scale(1.2);
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            padding: 40px;
+            max-width: 1200px;
+            margin: 40px auto;
+        }
+        .grid-item {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 10px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            color: white;
+            font-weight: 600;
+        }
+        .grid-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 20px rgba(0,0,0,0.2);
+        }
+        .grid-item::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, #FF416C 0%, #FF4B2B 100%);
+            border-radius: 10px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: -1;
+        }
+        .grid-item:hover::before {
+            opacity: 1;
+        }
+        .grid-item span {
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <!--<div class="grid-item"><span>Your name</span></div> -->
+    <header>
+        <div class="icons">
+            <img src="git-svgrepo-com.svg" alt="git" width="35px">
+            <i class="fab fa-github"></i>
+        </div>
+        <h1>Welcome to Get Git Go</h1>
+    </header>
+    <div class="grid-container">
+        <!--                                WORK IN THIS AREA ONLY                   -->
+        <!-- *********************************************************************** -->
+
+
+        <div class="grid-item"><span>Your name</span></div>
+
+
+        <!-- *********************************************************************** -->
+        <!--                                WORK IN THIS AREA ONLY                   -->
+    </div>
+</body>
+</html>
